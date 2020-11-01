@@ -1,0 +1,22 @@
+server:
+  port: 9000
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: ctrl
+  dubbo:
+    application:
+      name: ctrl
+    registry:
+      address: zookeeper://192.168.1.59:2181
+  kafka:
+    producer:
+      bootstrap-servers: 192.168.1.59:9082
+  redis:
+    host: 192.168.1.59
+    port: 6379
