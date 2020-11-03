@@ -26,6 +26,7 @@ import java.util.concurrent.TimeUnit;
  * @author yiran
  * @date: 20.11.1 14:41
  */
+@CrossOrigin()
 @RestController
 public class MainController {
 

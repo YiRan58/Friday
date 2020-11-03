@@ -64,11 +64,6 @@
  * @apiName 获取验证码
  * @apiGroup Main
  *
- *
- * @apiParam {String} username username
- * @apiParam {String} password password
- *
- *
  * @apiParamExample {json} Request-Example:
  * localhost:9000/captcha/b34797fe-70e4-4077-8620-263ac420c607
  *
